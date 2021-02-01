@@ -1,0 +1,16 @@
+<header>
+<ul>
+  <li><a [routerLink]="['/sobremi']">Sobre mi</a></li>
+  <li><a [routerLink]="['/proyectos']">Proyectos</a></li>
+  <li id="logo"><a href="#">EF</a></li>
+  <li><a [routerLink]="['/crearProyecto']">Crear Proyecto</a></li>
+  <li><a [routerLink]="['/contacto']">Contacto</a></li>
+</ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+<footer id="footer">
+Portafolio Eduardo Fuentes &copy;
+</footer>
