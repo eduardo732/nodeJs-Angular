@@ -1,0 +1,12 @@
+Se debe crear una base de datos llamada "portafolio"
+en esta db se debe crear una coleccion llamada "projects"
+dentro de esta coleccion iran objetos de este estilo.
+{
+    "_id" : ObjectId("6008b855ecae2ca2fc337817"),
+    "name" : "Blog",
+    "description" : "Blog personal",
+    "category" : "Informatica",
+    "langs" : "Js",
+    "year" : 2021,
+    "image" : "7FHj98Qbqn_-hI_5x3vZdV8d.png"
+}

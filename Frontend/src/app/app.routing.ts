@@ -19,4 +19,4 @@ const appRoutes: Routes = [
 //La url ** sirve para el 404, se puede crear un componente personalizado para demostrar ese error.
 
 export const appRoutingProviders: any[]= [];
-export const routing: ModuleWithProviders<any>= RouterModule.forRoot(appRoutes);
+export const routing: ModuleWithProviders<any>= RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' });
