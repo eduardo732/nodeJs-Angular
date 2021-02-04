@@ -165,6 +165,7 @@ article.about{
 
 .container .image img{
 	width: 100%;
+	max-height: 400px;
 }
 
 .container .data{

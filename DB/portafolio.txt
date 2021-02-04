@@ -1,3 +1,5 @@
+MONGO DB
+
 Se debe crear una base de datos llamada "portafolio"
 en esta db se debe crear una coleccion llamada "projects"
 dentro de esta coleccion iran objetos de este estilo.

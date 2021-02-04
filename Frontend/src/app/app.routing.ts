@@ -7,6 +7,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { CreateProjectComponent } from './components/create-project/create-project.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
+import {DetailComponent} from './components/detail/detail.component';
 
 const appRoutes: Routes = [
     {path: '', component: AboutmeComponent},
@@ -14,6 +15,7 @@ const appRoutes: Routes = [
     {path: 'proyectos', component: ProjectsComponent},
     {path: 'crearProyecto', component: CreateProjectComponent},
     {path: 'contacto', component: ContactComponent},
+    {path: 'proyecto/:id', component: DetailComponent},
     {path: '**', component:ErrorComponent},
 ];
 //La url ** sirve para el 404, se puede crear un componente personalizado para demostrar ese error.
