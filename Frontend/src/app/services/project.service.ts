@@ -38,4 +38,9 @@ export class ProjectService{
         let headers= new HttpHeaders().set('Content-Type','application/json' );
         return this._http.delete(this.url+'deleteProject/'+id, {headers:headers});
     }
+    updateProject(project): Observable<any>{
+        let params= JSON.stringify(project);
+        let headers= new HttpHeaders().set('Content-Type','application/json' );
+        return this._http.put(this.url+'updateProject/'+project._id, params,{headers:headers});
+    }
 }
